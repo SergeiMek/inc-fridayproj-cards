@@ -1,0 +1,105 @@
+.cardsPage {
+    max-width: 1280px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 8px;
+}
+/*.headPackName {*/
+/*    display: flex;*/
+/*    margin-top: 75px ;*/
+/*    align-self: auto;*/
+/*}*/
+.headPackName {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto 0;
+    width: 300px;
+    height: 40px;
+}
+
+
+.cardsPage h2 {
+    margin: 0;
+}
+
+.searchBlock{
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    justify-content: space-between;
+}
+.tableMainBlock {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    word-wrap: break-word;
+    text-align: center;
+    color: #2D2E46;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    padding: 5px;
+}
+
+.tableMainBlock th, td {
+    padding: 5px 10px;
+    vertical-align: middle;
+}
+
+table {
+    border-collapse: separate;
+    width: 100%;
+}
+
+.theadStyle .sortBlock {
+    cursor: pointer;
+}
+
+.trStyle {
+    border-radius: 10px;
+    color: #ECECF9;
+    background-color: #847bc4;
+}
+
+.buttonBlock {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.buttonBlock button {
+    padding: 5px 12px;
+    margin: 5px 5px;
+}
+
+.tbodyStyle {
+
+}
+
+tr:nth-child(2n) {
+    background: #e8edff;
+}
+
+.tbodyStyle td {
+    max-width: 190px;
+}
+
+.nameStyle:hover {
+    transition: transform .5s;
+    transform: scale(1.1);
+}
+
+.nameStyle a {
+    color: #2D2E46;
+}
+
+.nameStyle a:hover {
+    color: #0241b7;
+}
+
+.paginator {
+    display: flex;
+    justify-content: center;
+}

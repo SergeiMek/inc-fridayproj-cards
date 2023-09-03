@@ -1,0 +1,15 @@
+.starRatingBlock {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.starRating {
+    display: flex;
+    flex-direction: row;
+    width: 120px;
+    justify-content: left;
+}
+.number {
+    margin-left: 10px;
+}

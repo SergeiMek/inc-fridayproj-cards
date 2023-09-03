@@ -1,0 +1,12 @@
+
+.block {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+}
+.range {
+    width: 200px;
+    margin: 30px auto;
+}

@@ -1,0 +1,28 @@
+.radio {
+
+}
+
+.radio::before {
+}
+
+.span {
+    margin-left: 5px;
+}
+
+.radio:checked::before {
+}
+
+.label {
+    margin: 5px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-left: 20px;
+
+}

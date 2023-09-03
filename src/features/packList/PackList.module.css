@@ -1,0 +1,137 @@
+.mainBlock {
+    /*background: #3D3D3D;*/
+    background: #FFF;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    min-height: 300px;
+    overflow: hidden;
+
+    max-width: 1280px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.userChooseButton {
+    display: flex;
+    font-size: 14px;
+    font-weight: 400;
+    height: 44px;
+    justify-content: center;
+    line-height: 17px;
+    margin: 20px 10px 45px;
+    text-align: center;
+    width: 300px;
+    cursor: pointer;
+}
+
+.searchHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.reset_filter {
+    margin-top: 60px;
+}
+
+.rangeBlock h3 {
+    margin: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #2D2E46;
+}
+
+.sliderBlock {
+    display: flex;
+    margin-top: 24px;
+    width: 360px;
+    justify-content: space-between;
+}
+/*minWidth: "70px", padding: "4px 4px 4px 10px", border: "2px solid red", margin: "0 18px"*/
+.muiInput {
+    margin: 0 18px;
+    padding: 4px 4px 4px 10px;
+    box-sizing: border-box;
+    width: 180px;
+    height: 36px;
+    border: 1px solid #D9D9D9;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    outline: none;
+}
+.muiInput::-webkit-outer-spin-button,
+.muiInput::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    display: none;
+}
+
+.active {
+    align-items: center;
+    background: #366EFF;
+    border-radius: 0 2px 2px 0;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.disabled {
+    align-items: center;
+    background: #8c8c8c;
+    border-radius: 0 2px 2px 0;
+    color: black;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.active:hover {
+    /*transition: transform .5s;*/
+    /*transform: scale(1.1);*/
+}
+
+.inactive {
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 2px;
+    color: #2D2E46;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.inactive:hover {
+    transition: transform .5s;
+    transform: scale(1.1);
+}
+
+.packList {
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.spinnerSize {
+    width: 50px;
+    height: 50px;
+}
+
+.paginator {
+    position: sticky;
+    float: bottom;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+}
